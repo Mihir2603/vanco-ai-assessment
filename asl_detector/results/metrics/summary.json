@@ -1,0 +1,15 @@
+{
+  "mAP@0.50": 0.906,
+  "mAP@0.50:0.95": 0.7545,
+  "Precision": 0.9053,
+  "Recall": 0.8947,
+  "F1": 0.9,
+  "FPS": 45.4,
+  "Latency_ms": 22.01,
+  "FPS_benchmark_n": 145,
+  "split": "test",
+  "model": "YOLOv8n",
+  "imgsz": 320,
+  "epochs": 30,
+  "classes": 29
+}

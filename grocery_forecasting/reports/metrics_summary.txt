@@ -1,0 +1,34 @@
+== Store Sales Forecasting – Results ==
+
+Holdout Metrics (last 16 days of train):
+  RMSLE : 0.3942
+  MAE   : 63.81
+  SMAPE : 53.15%
+
+Top 10 Features by Gain:
+rolling_mean_7           1.067921e+08
+lag_21                   2.324691e+07
+rolling_mean_14          1.532447e+07
+rolling_max_7            8.273223e+06
+lag_56                   3.771407e+06
+store_family_mean_log    2.118196e+06
+rolling_mean_28          2.060437e+06
+lag_49                   1.573387e+06
+family_mean_log          1.173543e+06
+lag_16                   1.026368e+06
+
+Worst 5 Stores (RMSLE):
+ store_nbr    rmsle        mae   n
+        19 0.487496  34.202230 528
+        20 0.475563 103.626115 528
+        22 0.464747  49.523121 528
+        14 0.452802  50.655735 528
+        26 0.451116  29.638567 528
+
+Worst 5 Families (RMSLE):
+ family    rmsle       mae   n
+     31 0.661526 39.710002 864
+     21 0.618677  3.812164 864
+     13 0.584039 10.077283 864
+      6 0.541666  4.889253 864
+     14 0.527186  1.061731 864

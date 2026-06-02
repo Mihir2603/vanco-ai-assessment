@@ -1,0 +1,17 @@
+pandas==2.1.4
+numpy==1.26.4
+lightgbm==4.3.0
+scikit-learn==1.4.0
+matplotlib==3.8.2
+seaborn==0.13.2
+plotly==5.18.0
+statsmodels==0.14.1
+holidays==0.42
+pyarrow==14.0.2
+jupyter==1.0.0
+ipykernel==6.29.0
+kaggle==1.6.6
+tqdm==4.66.1
+category_encoders==2.6.3
+optuna==3.5.0
+shap==0.44.1

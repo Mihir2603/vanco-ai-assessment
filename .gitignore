@@ -1,0 +1,45 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large raw datasets (download instructions in README)
+asl_detector/data/kaggle_download/
+asl_detector/data/raw/
+grocery_forecasting/data/raw/
+rag_physics/data/raw/
+
+# ChromaDB vector store (rebuild with scripts/ingest.py)
+rag_physics/indexes/chroma_db/
+
+# Intermediate YOLO training checkpoints (keep only best/last)
+asl_detector/runs/detect/asl_yolov8/weights/epoch*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs and temp
+*.log
+nohup.out
+*.tmp
+
+# Environment variables with secrets
+.env
+*.env
+echo ___BEGIN___COMMAND_OUTPUT_MARKER___ ; PS1= ; PS2= ; unset HISTFILE ; EC=0 ; echo ___BEGIN___COMMAND_DONE_MARKER___0 ; }.env.example
